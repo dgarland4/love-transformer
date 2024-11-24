@@ -6,6 +6,8 @@ interface LoveResponseProps {
 }
 
 export const LoveResponse = ({ message, imageUrl }: LoveResponseProps) => {
+  const fullMessage = `${message} I love you.`;
+  
   return (
     <div className="animate-fade-in space-y-4 w-full max-w-md">
       <div className="rounded-lg overflow-hidden shadow-lg">
@@ -16,7 +18,7 @@ export const LoveResponse = ({ message, imageUrl }: LoveResponseProps) => {
         />
       </div>
       <p className="text-lg text-primary-foreground bg-white/50 backdrop-blur-sm p-4 rounded-lg shadow-sm">
-        {message}
+        {fullMessage}
       </p>
     </div>
   );
