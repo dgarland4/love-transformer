@@ -33,7 +33,7 @@ const Index = () => {
         <header className="text-center space-y-4">
           <h1 className="text-4xl font-bold text-primary-foreground">Transform with Love</h1>
           <p className="text-lg text-primary-foreground/80">
-            Share your thoughts, and let's transform them into something beautiful
+            Share your negative thoughts, and let's transform them into something beautiful
           </p>
         </header>
         
